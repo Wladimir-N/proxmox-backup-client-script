@@ -16,13 +16,13 @@
 
 ```su - web1 -s /bin/bash```
 
-```cp /opt/proxmox-backup-client-script/.env.example /var/www/site.ru/private/.env.backup```
+```cp /opt/proxmox-backup-client-script/.env.example private/.env.backup```
 
 Внесите в него свои значения переменных
 
 Скопируйте скрипт для создания бекапа базы
 
-```cp /opt/proxmox-backup-client-script/backup_bd.php /var/www/site.ru/web/bitrix/modules/main/tools```
+```cp /opt/proxmox-backup-client-script/backup_bd.php web/bitrix/modules/main/tools```
 
 Настройте в битрикс регулярное резервное копирование по запуску скрипта и хранение одного бекапа локально 
 
