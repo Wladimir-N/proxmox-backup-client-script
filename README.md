@@ -14,6 +14,8 @@
 
 Скопируйте файл .env.example к себе в дирректорию с сайтом
 
+```su - web1 -s /bin/bash```
+
 ```cp /opt/proxmox-backup-client-script/.env.example /var/www/site.ru/private/.env.backup```
 
 Внесите в него свои значения переменных
