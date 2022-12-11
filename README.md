@@ -30,6 +30,8 @@
 
 ```echo 'deb http://download.proxmox.com/debian/pbs-client bullseye main' >> /etc/apt/sources.list```
 
+```wget https://enterprise.proxmox.com/debian/proxmox-release-bullseye.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-bullseye.gpg```
+
 ```apt update```
 
 ```apt install --no-install-recommends proxmox-backup-client```
