@@ -24,7 +24,15 @@
 
 ```cp /opt/proxmox-backup-client-script/backup_bd.php web/bitrix/modules/main/tools```
 
-Настройте в битрикс регулярное резервное копирование по запуску скрипта и хранение одного бекапа локально 
+Настройте в битрикс регулярное резервное копирование по запуску скрипта и хранение одного бекапа локально
+
+Установите proxmox-backup-client
+
+```echo 'deb http://download.proxmox.com/debian/pbs-client bullseye main' >> /etc/apt/sources.list```
+
+```apt update```
+
+```apt install --no-install-recommends proxmox-backup-client```
 
 Выставьте в крон в ISPConfig
 
