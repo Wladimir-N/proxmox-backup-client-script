@@ -174,9 +174,9 @@ else
 
 	$arExpertBackupDefaultParams = array(
 		'dump_base' => 1, //Бекап БД
-		'dump_base_skip_stat' => 1,//статистика
-		'dump_base_skip_search' => 1,//поисковый индекс
-		'dump_base_skip_log' => 1,//журнал событий
+		'dump_base_skip_stat' => 0,//статистика
+		'dump_base_skip_search' => 0,//поисковый индекс
+		'dump_base_skip_log' => 0,//журнал событий
 		'dump_file_public' => 0,//Архивировать публичную часть
 		'dump_file_kernel' => 0,//Архивировать ядро
 		'dump_do_clouds' => 0,//Бекап в облако
