@@ -10,7 +10,7 @@
 
 ```cd /opt```
 
-```git clone https://github.com/Wladimir-N/proxmox-backup-client-script.git -b ispconfig-bitrix```
+```git clone https://github.com/Wladimir-N/proxmox-backup-client-script.git -b deb11-ispconfig-bitrix```
 
 Настройте в битрикс регулярное резервное копирование по запуску скрипта и хранение одного бекапа локально
 
