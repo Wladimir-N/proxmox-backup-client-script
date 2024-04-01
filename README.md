@@ -37,4 +37,4 @@
 
 Выставьте в крон в ISPConfig
 
-```source [web_root]/../private/.env.backup && /opt/proxmox-backup-client-script/ispconfig-bitrix-pbs.sh```
+```. [web_root]/../private/.env.backup && /opt/proxmox-backup-client-script/ispconfig-bitrix-pbs.sh```
