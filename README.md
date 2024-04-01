@@ -10,15 +10,15 @@
 
 ```cd /opt```
 
-```git clone https://github.com/Wladimir-N/proxmox-backup-client-script.git -b deb11-ispconfig-bitrix```
+```git clone https://github.com/Wladimir-N/proxmox-backup-client-script.git -b deb12-ispconfig-bitrix```
 
 Настройте в битрикс регулярное резервное копирование по запуску скрипта и хранение одного бекапа локально
 
 Установите proxmox-backup-client
 
-```echo 'deb http://download.proxmox.com/debian/pbs-client bullseye main' >> /etc/apt/sources.list```
+```echo 'deb http://download.proxmox.com/debian/pbs-client bookworm main' >> /etc/apt/sources.list```
 
-```wget https://enterprise.proxmox.com/debian/proxmox-release-bullseye.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-bullseye.gpg```
+```wget https://enterprise.proxmox.com/debian/proxmox-release-bookworm.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-bookworm.gpg```
 
 ```apt update```
 
