@@ -4,7 +4,7 @@ if [ ! -d /var/www/${site}/web ];then
 	echo "Нет такого сайта"
 	exit
 fi
-/usr/bin/php /var/www/${site}/web/bitrix/modules/main/tools/backup_bd.php || /usr/bin/php8.2 /var/www/${site}/web/bitrix/modules/main/tools/backup_bd.php
+/usr/bin/php /var/www/${site}/web/bitrix/modules/main/tools/backup_bd.php || /usr/bin/php8.2 /var/www/${site}/web/bitrix/modules/main/tools/backup_bd_8.2.php
 cd /var/www/${site}/
 if [ -n "${NAMESPACE}" ]; then
   export NAMESPACE_ARG="--ns ${NAMESPACE}"
