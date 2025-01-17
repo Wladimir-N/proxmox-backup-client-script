@@ -11,4 +11,4 @@ if [ -n "${NAMESPACE}" ]; then
 else
   export NAMESPACE_ARG=
 fi
-proxmox-backup-client backup $(echo ${site} | cut -d . -f1)-private.pxar:./private $(echo ${site} | cut -d . -f1)-web.pxar:./web --exclude bitrix/backup/*_full_* --exclude bitrix/cache/* --exclude bitrix/html_pages/*/* --exclude bitrix/stack_cache/* --exclude upload/resize_cache/* --exclude upload/managed_cache/* --exclude .git* ${NAMESPACE_ARG}
+proxmox-backup-client backup $(echo ${site} | cut -d . -f1)-private.pxar:./private $(echo ${site} | cut -d . -f1)-web.pxar:./web --exclude bitrix/backup/*_full_* --exclude bitrix/cache/* --exclude bitrix/html_pages/*/* --exclude bitrix/stack_cache/* --exclude upload/resize_cache/* --exclude bitrix/managed_cache/* --exclude .git* ${NAMESPACE_ARG}
